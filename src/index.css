@@ -1,0 +1,47 @@
+html, body, #root, .main-container, .videos-container, .video-embed-container, .youtube-video-container {
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding-top: 50px;
+  font-size: xx-large;
+}
+
+.video-link-input {
+  width: 100%;
+}
+
+.video-link-form-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.video {
+  display: flex;
+  width: 25%;
+  max-width: 25%;
+  padding: 3px;
+}
+
+.video-text, .video-header {
+  word-break: break-word;
+}
+
+.video-header {
+  font-weight: bold;
+}
